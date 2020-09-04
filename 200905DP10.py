@@ -9,5 +9,3 @@ for i in range(n-1, -1, -1):
             d[i] = d[j]+1
 
 print(max(d))
-
-a
