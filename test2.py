@@ -1,3 +1,15 @@
-test = 123
+def y(x):
+    global a
+    a =  4
+    return 0
 
-print(test)
+def f(a):
+    a = 3
+    print(a)
+    return  a
+
+a = 5
+f(a)
+print(a)
+y(a)
+print(a)
